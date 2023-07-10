@@ -1,0 +1,17 @@
+{
+  "name": "youtube-clone-server",
+  "version": "1.0.0",
+  "description": "This server is just a clone for youtube server using node js, express and mongo db",
+  "main": "server.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "start-server": "node src/server.js",
+    "watch-server": "nodemon src/server.js"
+  },
+  "author": "Biswajit Chanda",
+  "license": "ISC",
+  "dependencies": {
+    "dotenv": "^16.3.1",
+    "express": "^4.18.2"
+  }
+}
